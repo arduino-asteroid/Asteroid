@@ -62,6 +62,102 @@ We went for a gobelet and.... TADA !
 ![alt text](documentation/goblet_fix_on_stick.jpg "Push button image")
 
 
+### Controller Code
+
+The controller code is not really difficult.
+We used the accelerometer methods in order to get the X and Z axis that interested us.
+
+```
+mpu6050.getAccX()
+mpu6050.getAccZ()
+```
+
+In order to be able to communicate these positions to others (our Game), we connected the wemos to the Wifi.
+
+Then, we just had to send OSC messages to the game like this :
+
+```
+msg.add(mpu6050.getAccX());
+msg.add(mpu6050.getAccZ());
+msg.add(pressed);               // Pressed being the button state
+Udp.beginPacket(outIp, outPort);
+msg.send(Udp);
+Udp.endPacket();
+msg.empty();
+```
+
+## The Processing Game
+
+### Why Processing
+
+Processing is a really simple and usefull way to create animations and graphics in Java.
+
+Also, there are a lot of open-source projects : https://www.openprocessing.org
+
+We decided to start from an existing game that we found on https://www.openprocessing.org/sketch/106239/
+
+### What we modified
+
+Beside some basic changes like speed, adding a score / high score logic etc.. we had to implements 2 things.
+
+* A OSC interpretor in order to listen to the Controller's messages
+* A mapping between Controller messages and Game logic
+
+#### The interpretor
+
+Listening for OSC messages is not complicated in Processing.
+We implemented it this way :
+
+``` 
+OscP5 osc;
+ControlP5 cp;
+
+// During Setup
+osc = new OscP5(this, 4559);
+cp = new ControlP5(this);
+```
+
+"this" enable you implement a callback on each message received on the specified port
+
+``` 
+void oscEvent(OscMessage m) {}
+```
+
+We then just had to get the values from these messages
+
+``` 
+float rotation = m.get(0).floatValue();
+```
+
+#### The Mapping
+
+We tried, with our mapping, to retro-engineer the existing game's algorithm and to not change it too much.
+
+The algorithm had already a callBack when a click occured on screen :
+
+``` 
+void mousePressed()
+```
+
+This callback was not the one that triggered lasers but we had it to it's functionnality in order to enable us to have only one function handling every click of our Push Button.
+
+``` 
+// In the OSC messages callback 
+float buttonPressed = m.get(2).floatValue();
+  
+if(buttonPressed == 1) {
+mousePressed(); 
+}
+```
+
+We did the same logic of using the pre-existing algorithm in order to handle movements.
+
+
+
+
+
+
+
 
 
 
