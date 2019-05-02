@@ -39,7 +39,31 @@ We also added a Push Button in order to handle the differents clicks in the Game
 
 At first, we had to weld the push button with wire
 
-![alt text](documentation/push_button.png "Push button image")
+![alt text](documentation/push_button.jpg "Push button image")
+
+Then we experimented the button by just linking it to the wemos.
+
+![alt text](documentation/push_to_wemos.jpg "Push button on wemos")
+
+After that, we decided to use a suction cup in order to be able to play with the accelerometer like if it was a joystick.
+
+So we had to find a way to put the button on it.
+
+![alt text](documentation/button_on_joystick.jpg "button on joystick")
+
+Finally, We had to put the wemos in a certain position in order to be sure that the accelerometerr would send the right informations to the game.
+
+So we had to think about a way to fix the wemos to the suction cup.
+
+We went for a gobelet and.... TADA !
+
+![alt text](documentation/gobelet.jpg "Gobelet image")
+
+![alt text](documentation/goblet_fix_on_stick.jpg "Push button image")
+
+
+
+
 
 
 
