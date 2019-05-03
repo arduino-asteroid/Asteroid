@@ -2,8 +2,9 @@
 
 ## Project
 
-<img src="documentation/asteroid_game.png" alt="Game image" width="400" height="300"/>
-<img src="documentation/gif_asteroid.gif"/>
+
+ <img src="documentation/asteroid_game.png" alt="Game image" width="500" height="400"/>  <img src="documentation/gif_asteroid.gif"/> 
+
 
 Our project consist in a wifi controller for the famous game Asteroid !
 
