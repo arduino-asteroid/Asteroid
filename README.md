@@ -31,7 +31,7 @@ That is why we decided to create our own controller !
 
 ### Role
 
-The main role of our controller is to be able, with it's accelerometer, to detect the X ans Z angles in order to hanfdle going forward and rotating.
+The main role of our controller is to be able, with it's accelerometer, to detect the X and Z angles in order to handle going forward and rotating.
 
 We also added a Push Button in order to handle the differents clicks in the Game and to fire lasers.
 
@@ -51,7 +51,7 @@ So we had to find a way to put the button on it.
 
 ![alt text](documentation/button_on_joystick.jpg "button on joystick")
 
-Finally, We had to put the wemos in a certain position in order to be sure that the accelerometerr would send the right informations to the game.
+Finally, We had to put the wemos in a certain position in order to be sure that the accelerometer would send the right informations to the game.
 
 So we had to think about a way to fix the wemos to the suction cup.
 
