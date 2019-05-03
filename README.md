@@ -2,7 +2,8 @@
 
 ## Project
 
-<img src="documentation/asteroid_game.png" alt="Game image" width="900" height="600"/>
+<img src="documentation/asteroid_game.png" alt="Game image" width="400" height="300"/>
+<img src="documentation/gif_asteroid.gif"/>
 
 Our project consist in a wifi controller for the famous game Asteroid !
 
@@ -152,8 +153,6 @@ mousePressed();
 
 We did the same logic of using the pre-existing algorithm in order to handle movements.
 
-## Final Product !
-<img src="documentation/gif_asteroid.gif"/>
 
 
 
