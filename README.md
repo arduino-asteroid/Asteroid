@@ -25,6 +25,8 @@ That is why we decided to create our own controller !
 
 ### Components
 
+<img src="documentation/schema_controller.png" alt="Controller Schema" width="400" height="300"/>
+
 * Accelerometer : GY-521
 * Wifi module : ESP8266 WeMos D1 mini
 * Push button
