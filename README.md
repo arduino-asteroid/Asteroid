@@ -2,7 +2,7 @@
 
 ## Project
 
-![alt text](documentation/asteroid_game.png "Game image")
+<img src="documentation/asteroid_game.png" alt="Game image" width="900" height="600"/>
 
 Our project consist in a wifi controller for the famous game Asteroid !
 
@@ -39,17 +39,17 @@ We also added a Push Button in order to handle the differents clicks in the Game
 
 At first, we had to weld the push button with wire
 
-![alt text](documentation/push_button.jpg "Push button image")
+<img src="documentation/push_button.jpg" alt="push button" width="300" height="400"/>
 
 Then we experimented the button by just linking it to the wemos.
 
-![alt text](documentation/push_to_wemos.jpg "Push button on wemos")
+<img src="documentation/push_to_wemos.jpg" alt="Push button on wemos" width="300" height="400"/>
 
 After that, we decided to use a suction cup in order to be able to play with the accelerometer like if it was a joystick.
 
 So we had to find a way to put the button on it.
 
-![alt text](documentation/button_on_joystick.jpg "button on joystick")
+<img src="documentation/button_on_joystick.jpg" alt="Button on joystick" width="300" height="400"/>
 
 Finally, We had to put the wemos in a certain position in order to be sure that the accelerometer would send the right informations to the game.
 
@@ -57,10 +57,8 @@ So we had to think about a way to fix the wemos to the suction cup.
 
 We went for a gobelet and.... TADA !
 
-![alt text](documentation/gobelet.jpg "Gobelet image")
-
-![alt text](documentation/goblet_fix_on_stick.jpg "Push button image")
-
+<img src="documentation/gobelet.jpg" alt="Gobelet" width="300" height="400"/>
+<img src="documentation/goblet_fix_on_stick.jpg" alt="Push button image" width="300" height="400"/>
 
 ### Controller Code
 
