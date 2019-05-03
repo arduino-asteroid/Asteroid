@@ -1,4 +1,4 @@
-# Asteroid
+# Asteroid (Bonus at the end !)
 
 ## Project
 
@@ -152,6 +152,25 @@ mousePressed();
 ```
 
 We did the same logic of using the pre-existing algorithm in order to handle movements.
+
+## Bonus !
+
+We wanted to do our controller in a way that would enable us to easily adapt it to other games !
+All these games would need is away to communicate with OSC !
+
+In order to show this simplicity, we have adapted an other game, named Gravity with our controller !
+
+Gravity's goal is to move a little ball among a trapped maze.
+
+The ball can only go left or right, and change it's own gravity center (top or bottom).
+
+So we just had to adapt these moves with our controller messages.
+
+* Left / Right = Axe X
+* Gravity change = Push Button
+
+
+<img src="documentation/gravity.png" width="300" height="300"/> <img src="documentation/gif_gravity.gif"/> 
 
 
 
