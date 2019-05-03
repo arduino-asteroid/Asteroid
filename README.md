@@ -98,9 +98,9 @@ We decided to start from an existing game that we found on https://www.openproce
 
 ### What we modified
 
-Beside some basic changes like speed, adding a score / high score logic etc.. we had to implements 2 things.
+Beside some basic changes like speed, adding a score / high score logic etc.. we had to implements 2 main things :
 
-* A OSC interpretor in order to listen to the Controller's messages
+* An OSC interpretor in order to listen to the Controller's messages
 * A mapping between Controller messages and Game logic
 
 #### The interpretor
@@ -139,7 +139,7 @@ The algorithm had already a callBack when a click occured on screen :
 void mousePressed()
 ```
 
-This callback was not the one that triggered lasers but we had it to it's functionnality in order to enable us to have only one function handling every click of our Push Button.
+This callback was not the one that triggered lasers but we added it to it's functionnality in order to enable us to have only one function handling every click of our Push Button.
 
 ``` 
 // In the OSC messages callback 
@@ -152,7 +152,9 @@ mousePressed();
 
 We did the same logic of using the pre-existing algorithm in order to handle movements.
 
+## Final Product !
 
+<img src="https://media.giphy.com/media/2vmQDiUgZI836IlhFN/giphy.gif" width="400" height="400" />
 
 
 
