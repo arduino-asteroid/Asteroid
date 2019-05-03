@@ -3,7 +3,7 @@
 ## Project
 
 
- <img src="documentation/asteroid_game.png" alt="Game image" width="500" height="400"/>  <img src="documentation/gif_asteroid.gif"/> 
+ <img src="documentation/asteroid_game.png" alt="Game image" width="400" height="400"/>  <img src="documentation/gif_asteroid.gif" height="400"/> 
 
 
 Our project consist in a wifi controller for the famous game Asteroid !
@@ -170,7 +170,7 @@ So we just had to adapt these moves with our controller messages.
 * Gravity change = Push Button
 
 
-<img src="documentation/gravity.png" width="300" height="300"/> <img src="documentation/gif_gravity.gif"/> 
+<img src="documentation/gravity.png" width="300" height="500"/> <img src="documentation/gif_gravity.gif" height="500"/> 
 
 
 
