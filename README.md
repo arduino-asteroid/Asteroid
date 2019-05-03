@@ -2,8 +2,9 @@
 
 ## Project
 
-<img src="documentation/asteroid_game.png" alt="Game image" width="400" height="300"/>
-<img src="documentation/gif_asteroid.gif"/>
+
+ <img src="documentation/asteroid_game.png" alt="Game image" width="500" height="400"/>  <img src="documentation/gif_asteroid.gif"/> 
+
 
 Our project consist in a wifi controller for the famous game Asteroid !
 
@@ -60,8 +61,7 @@ So we had to think about a way to fix the wemos to the suction cup.
 
 We went for a gobelet and.... TADA !
 
-<img src="documentation/gobelet.jpg" alt="Gobelet" width="300" height="400"/>
-<img src="documentation/goblet_fix_on_stick.jpg" alt="Push button image" width="300" height="400"/>
+<img src="documentation/gobelet.jpg" alt="Gobelet" width="300" height="400"/> <img src="documentation/goblet_fix_on_stick.jpg" alt="Push button image" width="300" height="400"/>
 
 ### Controller Code
 
