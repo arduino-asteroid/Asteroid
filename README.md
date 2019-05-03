@@ -153,8 +153,7 @@ mousePressed();
 We did the same logic of using the pre-existing algorithm in order to handle movements.
 
 ## Final Product !
-
-<img src="https://media.giphy.com/media/2vmQDiUgZI836IlhFN/giphy.gif" width="400" height="400" />
+<img src="documentation/gif_asteroid.gif"/>
 
 
 
